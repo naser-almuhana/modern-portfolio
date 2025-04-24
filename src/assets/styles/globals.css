@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-archivo: var(--font-archivo);
+
+  --color-border: var(--border);
+
+  --color-red-orange-500: color-mix(
+    in srgb,
+    var(--color-red-500) 50%,
+    var(--color-orange-500) 50%
+  );
+
+  --breakpoint-sm: 375px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1200px;
+}
+
+:root {
+  --background: oklch(92.3% 0.003 48.717); /* --color-stone-200 */
+  --foreground: oklch(21.6% 0.006 56.043); /* --color-stone-900 */
+  --border: oklch(70.9% 0.01 56.259); /* --color-stone-400 */
+}
+
+.dark {
+  --background: oklch(21.6% 0.006 56.043); /* --color-stone-900 */
+  --foreground: oklch(92.3% 0.003 48.717); /* --color-stone-200 */
+  --border: oklch(70.9% 0.01 56.259); /* --color-stone-400 */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-archivo);
+}
+
+@utility container {
+  padding-inline: 10px;
+  margin-inline: auto;
+
+  @variant sm {
+    padding-inline: 1rem;
+  }
+  @variant md {
+    padding-inline: 2rem;
+  }
+  @variant lg {
+    padding-inline: 4rem;
+  }
+}
+
+@utility section {
+  @apply py-24 md:py-32 lg:py-40;
+}
+
+.line {
+  @apply overflow-hidden;
+}
+
+.word {
+  @apply translate-y-full;
+}
