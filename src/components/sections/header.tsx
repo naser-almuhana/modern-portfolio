@@ -130,7 +130,7 @@ export const Header: FC = () => {
             <div className="flex items-center gap-4">
               {/* Hamburger Menu */}
               <div
-                className="border-border bg-background flex size-11 items-center justify-center rounded-full border"
+                className="border-border bg-background flex size-11 cursor-pointer items-center justify-center rounded-full border"
                 onClick={() => setIsOpen((prev) => !prev)}
               >
                 <svg

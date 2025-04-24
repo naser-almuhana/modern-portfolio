@@ -105,7 +105,9 @@ export const Footer: FC = () => {
           </div>
         </div>
         <p className="py-16 text-sm text-white/30">
-          Copyright &copy; Naser Almuhana &bull; All rights reserved
+          Copyright &copy;{" "}
+          <span className="text-red-orange-500">Naser Almuhana</span> &bull; All
+          rights reserved
         </p>
       </div>
     </footer>
