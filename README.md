@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+A modern and animated developer portfolio built with **Next.js 15**, **React 19**, **TailwindCSS 4**, and **Framer Motion**.  
+This project showcases smooth transitions, clean UI, and reusable components — great for developers looking to present their work in a sleek and minimal way.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js 15**
+- **React 19**
+- **TailwindCSS 4**
+- **Framer Motion** (animation library)
+- **TypeScript**
+- **Prettier + ESLint**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧩 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Animated hero section
+- Animated text all over the site
+- Responsive on mobile, tablet, desktop
+- Smooth page transitions
+- Responsive layout
+- Reusable UI components
+- Contact section with call to action
+- Optimized performance and accessibility
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
+MIT License
 
-To learn more about Next.js, take a look at the following resources:
+Copyright (c) [2025] [Naser Almuhana]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The above copyright notice and this permission notice shall
